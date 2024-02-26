@@ -121,7 +121,7 @@ $(document).ready(function() {
     $('#ipv4').on('input', function() {
         var inputVal = $(this).val();
 
-        // 10. Solo se permiten caracteres numéricos y el punto
+        
         var validInput = inputVal.replace(/[^0-9.]/g, '');
         if (validInput !== inputVal) {
             alert('Solo se permiten caracteres numéricos y el punto.');
